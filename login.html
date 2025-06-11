@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/login.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./js/login.js" defer></script>
+    <link rel="icon" href="./img/logo3.png" type="image/x-icon">
+    <link rel="icon" href="./img/iconLogo2.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper_login">
+        <section>
+            <form  action="" class="form" id="form-1" method="post" onsubmit="">
+                <a href="./index.html">
+                    <i class="fa-solid fa-xmark close_form" > </i>
+                </a>
+            <h1>Đăng nhập</h1>
+            <div class="inputbox">
+                <i class="fa fa-envelope" aria-hidden="true" ></i>
+                <input type="email"  id="email">
+                <label >Email</label>
+                <span class="form-message"></span>
+            </div>
+            <div class="inputbox">
+                <i class="fa fa-unlock-alt" aria-hidden="true" ></i>
+                <input type="password"  id="password">
+                <label >Mật khẩu</label>
+                <span class="form-message"></span>
+            </div>
+            <div class="forget">
+                <label>
+                    <input type="checkbox">Lưu tài khoản
+                </label>
+                <a href="#">Quên mật khẩu</a>
+            </div>
+            <button class="btn_admin">Đăng nhập</button>
+            <!-- <a  class="btn_admin" href="./Admin.html">Đăng nhập </a> -->
+            <div class="register">
+                <p>
+                    Chưa có tài khoản?
+                    <a href="#" id="signup-link">
+                        Đăng ký
+                    </a>
+                </p>
+            </div>
+            </form>
+        </section>
+        <banner>
+            <p class='wel_text' style="font-family: Great Vibes, cursive ;font-weight: normal; color: #F04506;">Ahgn’s</p>    
+            <p class="para" >Restaurant</p>
+            <p class="para">Best choice for you!</p>
+        </banner>
+    </div>
+    <div class="wrapper_signup">
+        <section>
+            <form class="form" id="form-2">
+            <i class="fa-solid fa-xmark close_form"></i>
+            <h1>Đăng ký</h1>
+            <div class="inputbox">
+                <i class="fa fa-envelope" aria-hidden="true" ></i>
+                <input type="email"  id="email-2">
+                <label>Email</label>
+                <span class="form-message"></span>
+            </div>
+            <div class="inputbox">
+                <i class="fa fa-unlock-alt" aria-hidden="true" ></i>
+                <input type="password"  id="password-2">
+                <label >Mật khẩu</label>
+                <span class="form-message"></span>
+            </div>
+            <div class="inputbox">
+                <i class="fa fa-unlock-alt" aria-hidden="true" ></i>
+                <input type="password"  id="password_confirmation">
+                <label >Xác nhận mật khẩu</label>
+                <span class="form-message"></span>
+            </div>
+            <div class="forget">
+                <label>
+                    <input type="checkbox">Tôi đồng ý với các diều khoản
+                </label>
+            </div>
+            <button>Đăng ký</button>
+            <div class="register">
+                <p>
+                    Đã có tài khoản?
+                    <a href="#" id="login-link">
+                        Đăng nhập
+                    </a>
+                </p>
+            </div>
+            </form>
+        </section>
+        <banner>
+            <p class='wel_text' style="font-family: Great Vibes, cursive ;font-weight:normal;">Nhà hàng</p>    
+            <p class="para">Feliciano</p>
+            <p class="para">Lựa chọn tốt nhất dành cho bạn!</p>
+        </banner>
+    </div>
+</body>
+</html>

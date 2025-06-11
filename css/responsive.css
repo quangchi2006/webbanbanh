@@ -1,0 +1,82 @@
+@media (max-width : 1280px  ) {
+    
+}
+
+@media (max-width : 1000px  ) {
+    
+    nav .phone {
+        display: none;
+    }
+    
+    .btn {
+        padding: 16px 10px !important;
+
+    }
+}
+@media (max-width : 960px  ) {
+    nav {
+        padding: 0;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu  {
+        width: 100%;
+        margin-left: 0!important;
+    }
+    .menu ul {
+        display: block;
+    }
+    .menu ul li {
+        margin-left: 0;
+    }
+    .menu ul li a {
+        padding: 20px 0;
+    }
+    /* nav {
+        height: 550px;
+    } */
+    .bar {
+        display: block;
+    }
+
+    nav .order {
+        float: left!important;
+    }
+
+    .sticker1 {
+        /* display: none!important; */
+        width: 100px !important;
+    }
+
+
+    
+}
+
+
+@media (width <= 768px) {
+    
+    .panel_subtitle h2 {
+        font-size: 100px;
+        text-align: center;
+        margin-left: 16px;
+    }
+
+    .content h1 {
+        font-size: 60px!important;
+    }
+
+    .panel {
+        height: 80vh!important;
+    }
+
+    .blog_date {
+        top: 200px;
+    }
+}
+
+@media (width <= 768px) {
+    .blog_date {
+        top: 150px;
+    }
+}

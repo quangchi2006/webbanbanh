@@ -1,0 +1,57 @@
+:root {
+    --primaty-color: #F04506;
+    --white-color:#fff;
+    --bg-color:#FFF5F2;
+}
+
+.search {
+    background-color: var(--primaty-color);
+    padding: 6px 10px;
+    display: flex; 
+    align-items: center;
+}
+.search_icon  {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primaty-color);
+}
+.search_icon i {
+    color: var(--white-color);
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+.search_icon:hover {
+    cursor: pointer;
+}
+.search_input {
+    width: 0px;
+    height: 40px;
+    transition: 0.8s;
+    border-radius: 20px;
+
+}
+.search_input  {
+    border: none;
+}
+
+.input_active {
+    width: 250px;
+    padding: 0 20px;
+}
+
+.search_input.input_active {
+    border:  1px solid var(--primaty-color);
+}
+
+.search_input.input_active::placeholder {
+    content: "Tim kiem";
+}
+
+.product {
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
