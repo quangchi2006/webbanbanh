@@ -16,14 +16,27 @@ exit.forEach(item=>{
         window.location.href = './index.html';
     })
 })
-const summit=document.querySelector('.btn_admin');
-summit.addEventListener('click',()=>{
-    var email=document.querySelector('#email').value;
-    var password=document.querySelector('#password').value;
-    if(flag==true&&email=='admin123@gmail.com'&&password=='Admin123')
-        console.log(1)
+const summit = document.querySelector('.btn_admin');
+
+summit.addEventListener('click', () => {
+    var email = document.querySelector('#email').value;
+    var password = document.querySelector('#password').value;
+
+    if (flag == true && email === 'admin123@gmail.com' && password === 'Admin123') {
+        console.log(1);
         window.location.href = './admin.html';
-})
+    } else {
+        if (email === 'quangchi366@gmail.com' && password === '123456') {
+            console.log(2);
+            window.location.href = './index.html';
+        } else {
+            console.log("Đăng nhập thất bại: tài khoản hoặc mật khẩu không đúng.");
+            alert("Sai thông tin đăng nhập!");
+        }
+    }
+});
+
+
 var flag=true
 //Validation
 function Validator(options) {
